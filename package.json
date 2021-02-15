@@ -1,0 +1,23 @@
+{
+  "name": "zachwebsite",
+  "version": "1.0.0",
+  "description": "First website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZachChaloupecky/ZachWebsite.git"
+  },
+  "author": "ZachChaloupecky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZachChaloupecky/ZachWebsite/issues"
+  },
+  "homepage": "https://github.com/ZachChaloupecky/ZachWebsite#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "bulma": "^0.9.2"
+  }
+}
