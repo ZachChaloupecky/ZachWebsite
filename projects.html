@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  </head>
+  <body>
+    <section class="hero is-dark">
+        <nav class="navbar is-primary">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#" style="font-weight:bold;">
+                        Zachary Chaloupecky
+                    </a>
+                    <span class="navbar-burger burger" data-target="navMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="index.html" class="navbar-item">
+                            Home
+                        </a >
+                        <a href="https://www.linkedin.com/in/zachary-chaloupecky-835791194/" target=_blank class="navbar-item">LinkedIn</a>
+                        <a href="https://www.instagram.com/zach_chaloupecky/" target=_blank class="navbar-item">Instagram</a>
+                        <a href="https://twitter.com/ZachChaloupecky" target=_blank class="navbar-item">Twitter</a>
+                        <a href="projects.html" class="navbar-item" >Projects</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <script type="text/javascript">
+            (function() {
+                let burger = document.querySelector('.burger');
+                let nav = document.querySelector('#'+burger.dataset.target);
+    
+                burger.addEventListener('click', function(){
+                    burger.classList.toggle('is-active');
+                    nav.classList.toggle('is-active');
+                });
+            })();
+        </script>
+    
+    </section>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        My Projects!
+      </h1>
+      <p class="subtitle">
+        Here are links to previous projects. They are separated by class and personal projects.
+      </p>
+      <h3 style="font-size: larger; font-weight: 500;">
+      Hero Card Rendering
+      </h3>
+      <strong>Class: </strong> COMP 426 - Foundations of Web Programming
+      </p>
+      <p style="max-width: 50%;">Using JavaScript, JQuery, html, and CSS, build a dynamic Hero Database web page that displays a list of heroes from the Avengers comics and allows the user to make changes to the hero entries. </p>
+      <p>
+          <strong>Skills:</strong>
+      </p>
+      <p style="max-width: 40%;">CSS, HTML, JavaScript, JQuery, Functional Programming, Web Programming</p>
+      <br>
+
+        <h3 style="font-size: larger; font-weight: 500;">
+        Discord Bot
+        </h3>
+        <strong>Class: </strong> Personal
+        </p>
+        <p style="max-width: 50%;">Using JavaScript and the Discord API, create a bot that interacts with users based on various commands. </p>
+        <p>
+            <strong>Skills:</strong>
+        </p>
+        <p style="max-width: 40%;"> JavaScript, API, Self-Learning <p>
+    
+            <br>
+
+        <h3 style="font-size: larger; font-weight: 500;">
+        This Website!
+        </h3>
+        <strong>Class: </strong> Personal
+        </p>
+        <p style="max-width: 50%;">Using JavaScript, HTML, CSS, and Bulma create a functional, nice to look at website that showcases my coding and personal skills. </p>
+        <p>
+            <strong>Skills:</strong>
+        </p>
+        <p style="max-width: 40%;"> JavaScript, Bulma, CSS, HTML,  Self-Learning <p>
+    </div>
+  </section>
+  </body>
+</html>
